@@ -1,1 +1,0 @@
-from sum_numbers_package.sum_prime_numbers.sum_function import sumPrimer
