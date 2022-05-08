@@ -10,7 +10,6 @@ setuptools.setup(
   author_email='sassonadi38@gmail.com',
   install_requires=[
           'flask',
-          'json',
       ],
   python_requires='>=3.10'
 )
