@@ -1,0 +1,12 @@
+Create accounts for the Test PyPI and PyPI repositories - MUST.
+
+python -m pip install --user --upgrade setuptools
+
+python setup.py sdist
+
+pip install twine && wheel
+cd <chosen folder>
+
+twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+
+twine upload dist/*
